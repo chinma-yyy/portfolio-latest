@@ -2,12 +2,12 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Brittany Chiang',
+    title: 'Chinmay Shewale',
     description:
-      'Brittany Chiang is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
+      'Chinmay Shewale is a DevOps enthusiast exploring all the related tech and optimizing the pipelines.',
+    siteUrl: 'https://wwwchinmayyy.me', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+    twitterUsername: '@chinma_yyy',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
