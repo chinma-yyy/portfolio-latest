@@ -5,7 +5,7 @@ module.exports = {
     title: 'Chinmay Shewale',
     description:
       'Chinmay Shewale is a DevOps enthusiast exploring all the related tech and optimizing the pipelines.',
-    siteUrl: 'https://www.chinmayyy.me', // No trailing slash allowed!
+    siteUrl: 'https://chinmayyy.me', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@chinma_yyy',
   },

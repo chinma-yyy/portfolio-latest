@@ -196,8 +196,8 @@ const Projects = () => {
   const revealProjects = useRef([]);
   const prefersReducedMotion = usePrefersReducedMotion();
 
-  setShowMore(false);
   useEffect(() => {
+    // if (showMore == true) setShowMore(false);
     if (prefersReducedMotion) {
       return;
     }
@@ -303,9 +303,9 @@ const Projects = () => {
         )}
       </ul>
 
-      {/* <button className="more-button" onClick={() => setShowMore(!showMore)}>
+      <button className="more-button" onClick={() => setShowMore(!showMore)}>
         Show {showMore ? 'Less' : 'More'}
-      </button> */}
+      </button>
     </StyledProjectsSection>
   );
 };
