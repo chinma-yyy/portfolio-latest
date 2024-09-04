@@ -196,6 +196,7 @@ const Projects = () => {
   const revealProjects = useRef([]);
   const prefersReducedMotion = usePrefersReducedMotion();
 
+  setShowMore(false);
   useEffect(() => {
     if (prefersReducedMotion) {
       return;
